@@ -1,3 +1,5 @@
+import Footer from "./components/Footer";
+
 export default function Home() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center bg-gray-50 p-24 max-w-3xl mx-auto">
@@ -31,6 +33,7 @@ export default function Home() {
         <p className="text-2xl text-gray-800 mb-6">How?</p>
         <p className="text-lg text-gray-600 mb-6">It is comming soon...</p>
       </section>
+      <Footer />
     </main>
   );
 }
